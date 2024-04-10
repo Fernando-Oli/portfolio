@@ -1,0 +1,63 @@
+:root {
+  font-family:  'Source Code Pro';
+  line-height: 1.5;
+  font-weight: 400;
+  width: auto;
+  height: max-content;
+  color-scheme: light dark;
+  color: #ffffff;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+#bodyraiz {
+  background-color: #242424;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: auto;
+}
+
+#nav-main {
+  background-color: #1F1717;
+  display: flex;
+  justify-content: space-evenly;
+  pad: 10px;
+  align-items: center;
+}
+
+#img-linkedin {
+  width: 20px;
+  height: auto;
+}
+
+#img-logo {
+  width: 100px;
+  height: auto;
+}
+
+#photo {
+  width: 20%;
+  clip-path: circle(40%);
+}
+
+#sec-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@font-face {
+  font-family: 'Source Code Pro';
+  font-style: italic;
+  font-weight: 200 900;
+  font-display: swap;
+  src: url('./assets//fonts/SourceCodePro-Italic-VariableFont_wght.ttf') format('woff2');
+}
+
+#text-white {
+  color: #82838C;
+}
+
+
